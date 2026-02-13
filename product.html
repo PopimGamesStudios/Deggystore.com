@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+<meta charset="UTF-8">
+<title>חולצת אוברסייז</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <img src="logo.png">
+    <div class="cart-icon" onclick="window.location.href='cart.html'">🛒</div>
+</header>
+
+<div class="container">
+    <img src="shirt.png" width="300">
+    <h1>חולצת אוברסייז עם כתב יד</h1>
+    <p>מחיר: ₪50</p>
+
+    <select id="size">
+        <option value="">בחר מידה</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+        <option>XXL</option>
+    </select>
+
+    <br>
+    <button onclick="addToCart()">הוספה לסל</button>
+</div>
+
+</body>
+</html>

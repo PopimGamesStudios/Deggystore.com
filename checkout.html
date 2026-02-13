@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+<meta charset="UTF-8">
+<title>תשלום</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <img src="logo.png">
+</header>
+
+<div class="container">
+    <h1>פרטי משלוח ותשלום</h1>
+
+    <form onsubmit="completePurchase(event)">
+
+        <h2>📦 פרטי משלוח</h2>
+
+        <input type="text" placeholder="שם מלא" required><br>
+        <input type="text" placeholder="טלפון" required><br>
+        <input type="text" placeholder="רחוב ומספר בית" required><br>
+        <input type="text" placeholder="דירה (אם יש)"><br>
+        <input type="text" placeholder="עיר" required><br>
+        <input type="text" placeholder="מיקוד" required><br>
+
+        <h2>💳 פרטי תשלום</h2>
+
+        <input type="text" placeholder="תעודת זהות" required><br>
+        <input type="text" placeholder="מספר כרטיס אשראי" required><br>
+        <input type="text" placeholder="תוקף (MM/YY)" required><br>
+        <input type="text" placeholder="CVV" required><br><br>
+
+        <button type="submit">שלם ₪50</button>
+
+    </form>
+</div>
+
+</body>
+</html>
